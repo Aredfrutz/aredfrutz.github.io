@@ -1,0 +1,61 @@
+body {
+    background-color: black;
+    color: #66ff66; /* Lighter text color */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #00cc00;
+}
+
+a {
+    color: #66ff66;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+.resume-button, .autobiography-button {
+    background-color: #00cc00;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.resume-button:hover, .autobiography-button:hover {
+    background-color: #66ff66; /* Lighter green on hover */
+}
+
+.image-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
